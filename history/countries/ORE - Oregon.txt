@@ -49,7 +49,9 @@
 		}
 
 		set_politics = {
-		ruling_party = traditional_conservatism
+		ruling_party = centrism
+		election_frequency = 48
+		elections_allowed = yes
 }
 
 set_popularities = {
@@ -101,5 +103,5 @@ set_popularities = {
 	}
 
 	# POLITICAL LEADERS
-	recruit_character = ORE_george_curry
+	recruit_character = ORE_john_whiteaker
 }

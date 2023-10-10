@@ -27,20 +27,20 @@ characters={
 			id=-1
 		}
 	}
-	NZL_duncan_a_cameron={
-		name="Duncan A. Cameron"
-		portraits={
-			civilian={
-				large="gfx/leaders/NZL/Portrait_NZL_Duncan A Cameron.dds"
-			}
-		}
-		# country_leader={
-			# desc="POLITICS_GENERIC_EOANB_DESC"
-			# ideology=despotism
-			# expire="1900.6.1.1"
-			# id=-1
-		# }
-	}
+#NZL_duncan_a_cameron={   Portrait removed due to incorrect saving method
+#	name="Duncan A. Cameron"
+#	portraits={
+#		civilian={
+#			large="gfx/leaders/NZL/Portrait_NZL_Duncan A Cameron.dds"
+#		}
+#	}
+#	# country_leader={
+#		# desc="POLITICS_GENERIC_EOANB_DESC"
+#		# ideology=despotism
+#		# expire="1900.6.1.1"
+#		# id=-1
+#	# }
+#}
 	NZL_character_frederick_weld = {
 	  name = "Frederick Weld"
 	  portraits = {

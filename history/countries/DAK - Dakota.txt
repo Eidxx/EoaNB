@@ -49,7 +49,9 @@
 		}
 
 		set_politics = {
-			ruling_party = traditional_conservatism
+			ruling_party = centrism
+			election_frequency = 48
+			elections_allowed = yes
 	}
 
 set_popularities = {
@@ -102,6 +104,6 @@ set_popularities = {
 
 	# POLITICAL LEADERS
 
-	recruit_character = DAK_mark_izard
+	recruit_character = DAK_wilmot_w_brookings
 	recruit_character = DAK_john_blair_smith_todd
 }

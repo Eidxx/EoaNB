@@ -1202,7 +1202,7 @@ focus_tree = {
 }
 
 	focus = {
-		id = CAN_Start_Shipbuilding_try
+		id = CAN_Start_Shipbuilding_Industry
 		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 19
 		y = 11
@@ -1314,7 +1314,11 @@ focus_tree = {
 		prerequisite = { focus = CAN_Agrarian_Colony }	
 
 		completion_reward = {
- add_timed_idea = { idea = CAN_idea_agricultural_efforts days = 320 }
+		add_tech_bonus = {
+   	 	bonus = 0.1
+    		uses = 2
+    		category = biochemistry_tech
+			}
 		}
 	}
 
@@ -1337,9 +1341,6 @@ focus_tree = {
 
 		completion_reward = {
 		add_political_power = 25
-1311 = {
-add_extra_state_shared_building_slots = 2
-}
 		}
 	}
 
@@ -1359,7 +1360,7 @@ add_extra_state_shared_building_slots = 2
 		mutually_exclusive = { focus = CAN_Support_Shift_stock_raising }	
 
 		completion_reward = {
-swap_ideas = { remove_idea = CAN_idea_agricultural_efforts add_idea = CAN_idea_agricultural_efforts2 }
+		add_stability = 0.01
 		}
 	}
 
@@ -1420,7 +1421,6 @@ swap_ideas = { remove_idea = CAN_idea_agricultural_efforts add_idea = CAN_idea_a
 
 		completion_reward = {
 		add_stability = -0.01
-swap_ideas = { remove_idea = CAN_idea_agricultural_efforts add_idea = CAN_idea_agricultural_efforts1 }
 		}
 	}
 
@@ -1491,12 +1491,6 @@ swap_ideas = { remove_idea = CAN_idea_agricultural_efforts add_idea = CAN_idea_a
 
 		completion_reward = {
 		add_political_power = 25
-1310 = {
-add_extra_state_shared_building_slots = 1
-}
-276 = {
-add_extra_state_shared_building_slots = 1
-}
 		}
 	}
 
@@ -1505,7 +1499,7 @@ add_extra_state_shared_building_slots = 1
 		icon = GFX_goal_generic_production
 		x = 27
 		y = 3
-		cost = 35
+		cost = 70
 		available_if_capitulated = no   
 		ai_will_do = {
 			factor = 5
@@ -1515,7 +1509,7 @@ add_extra_state_shared_building_slots = 1
 
 		completion_reward = {
 		add_tech_bonus = {
-   	 	bonus = 0.20
+   	 	bonus = 0.1
     		uses = 1
     		category = biochemistry_tech
 			}
@@ -1802,7 +1796,7 @@ add_extra_state_shared_building_slots = 1
 
 		completion_reward = {
 		add_tech_bonus = {
-   	 	bonus = 0.35
+   	 	bonus = 0.1
     		uses = 1
     		category = transport_tech
 			}
@@ -1824,11 +1818,10 @@ add_extra_state_shared_building_slots = 1
 
 		completion_reward = {
 		add_tech_bonus = {
-   	 	bonus = 0.15
+   	 	bonus = 0.1
     		uses = 1
     		category = mechanical_engineering_tech
 			}
- add_timed_idea = { idea = CAN_idea_macadam_method days = 500 }
 		}
 	}
 
@@ -1837,7 +1830,7 @@ add_extra_state_shared_building_slots = 1
 		icon = GFX_goal_generic_construction2
 		x = 36
 		y = 4
-		cost = 65
+		cost = 70
 		available_if_capitulated = no   
 		ai_will_do = {
 			factor = 3
@@ -1847,7 +1840,7 @@ add_extra_state_shared_building_slots = 1
 
 		completion_reward = {
 		add_tech_bonus = {
-   	 	bonus = 0.5
+   	 	bonus = 0.1
     		uses = 1
     		category = mechanical_engineering_tech
 			}
@@ -1869,11 +1862,9 @@ add_extra_state_shared_building_slots = 1
 
 		completion_reward = {
 		add_tech_bonus = {
-   	 	bonus = 0.3
-    		uses = 2
-ahead_reduction = 3
-    		category = electronics_devices_tech
-
+   	 	bonus = 0.1
+    		uses = 1
+    		category = mechanical_engineering_tech
 			}
 		}
 	}
