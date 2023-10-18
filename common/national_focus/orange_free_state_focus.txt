@@ -506,8 +506,8 @@ focus_tree = {
 		y = 5
 		completion_reward = {
 			swap_ideas={
-				add_idea = normal_taxes
-				remove_idea = low_taxes
+				add_idea = taxation_level_3
+				remove_idea = taxation_level_2
 			}
 		}
 	}
@@ -673,7 +673,7 @@ focus_tree = {
 		x = -5
 		y = 1
 		completion_reward = {
-
+			
 		}
 	}
 	focus = {
@@ -724,7 +724,7 @@ focus_tree = {
 		x = -6
 		y = 3
 		completion_reward = {
-
+			
 		}
 	}
 	focus = {
@@ -889,7 +889,7 @@ focus_tree = {
 		x = 2
 		y = 2
 		completion_reward = {
-
+			
 		}
 	}
 	focus = {
@@ -1356,7 +1356,7 @@ focus_tree = {
 		x = 32
 		y = 0
 		completion_reward = {
-
+			
 		}
 	}
 	focus = {
@@ -1375,7 +1375,7 @@ focus_tree = {
 		x = 27
 		y = 1
 		completion_reward = {
-
+			
 		}
 	}
 	focus = {
@@ -1744,7 +1744,7 @@ focus_tree = {
 		x = 32
 		y = 4
 		completion_reward = {
-
+			
 		}
 	}
 	focus = {
@@ -1763,7 +1763,7 @@ focus_tree = {
 		x = 37
 		y = 1
 		completion_reward = {
-
+			
 		}
 	}
 	focus = {
